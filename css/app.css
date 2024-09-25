@@ -1,5 +1,7 @@
 :root {
-    --container-width: 1024px
+    --container-width: 1024px;
+    --btn-bg: #0061ff;
+    --btn-size: 35px;
 }
 
 * {
@@ -48,6 +50,15 @@ img {
 	padding: 0 10px;
 }
 
+/* Components */
+
+.btn {
+    color: white;
+    line-height: var(--btn-size);
+    background-color: var(--btn-bg);
+    padding: 5px calc(var(--btn-size) / 2);
+}
+
 /* Header */
 
 .navbar {
@@ -63,6 +74,7 @@ img {
     align-items: center;
     gap: 40px;
     padding: 0 20px;
+    font-size: 16px;
 }
 
 /* Debug */
