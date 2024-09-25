@@ -139,6 +139,11 @@ img {
     font-size: 40px;
 }
 
+.h-card {
+    display: flex;
+    justify-content: space-between;
+}
+
 /* Debug */
 
 .debug .container,
@@ -154,3 +159,4 @@ img {
 .debug .row > * {
 	border-color: cornflowerblue;
 }
+
