@@ -144,6 +144,10 @@ img {
     justify-content: space-between;
 }
 
+.plans .row {
+    row-gap: 40px;
+}
+
 /* Debug */
 
 .debug .container,
