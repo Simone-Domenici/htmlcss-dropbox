@@ -41,6 +41,10 @@ img {
     max-width: 100%;
 }
 
+.container-sm {
+    max-width: 1000px;
+}
+
 .row {
 	display: flex;
 	flex-wrap: wrap;
@@ -105,6 +109,7 @@ img {
 
 .hero {
     background-color: #B4D0E7;
+    margin-bottom: 95px;
 }
 
 
@@ -127,6 +132,11 @@ img {
 .sub-delete {
     padding-top: 30px;
     padding-bottom: 70px;
+}
+
+/* Main */
+.plans h2 {
+    font-size: 40px;
 }
 
 /* Debug */
