@@ -1,7 +1,7 @@
 :root {
     --container-width: 1200px;
     --btn-bg: #0061ff;
-    --btn-size: 35px;
+    --btn-size: 44px;
 }
 
 * {
@@ -47,7 +47,7 @@ img {
 }
 
 .row > * {
-	padding: 0 10px;
+	padding: 10px;
 }
 
 .col-100 {
@@ -68,7 +68,19 @@ img {
     color: white;
     line-height: var(--btn-size);
     background-color: var(--btn-bg);
+    padding: 10px calc(var(--btn-size) / 2);
+}
+
+.btn.btn-sm {
+    line-height: 36px;
     padding: 5px calc(var(--btn-size) / 2);
+}
+
+.fa-arrow-down {
+    font-size: 42px;
+    /* position: absolute;
+    bottom: 10px;
+    left: 10px; */
 }
 
 /* Header */
@@ -98,6 +110,23 @@ img {
 
 .hero h1 {
     font-size: 80px;
+}
+
+.row.main-title {
+    padding-bottom: 45px;
+}
+
+.product-info {
+    padding-bottom: 30px;
+}
+
+/* .hero-description {
+    position: relative;    
+} */
+
+.sub-delete {
+    padding-top: 30px;
+    padding-bottom: 70px;
 }
 
 /* Debug */
