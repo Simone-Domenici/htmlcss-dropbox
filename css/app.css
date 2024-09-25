@@ -1,5 +1,5 @@
 :root {
-    --container-width: 1024px;
+    --container-width: 1200px;
     --btn-bg: #0061ff;
     --btn-size: 35px;
 }
@@ -50,6 +50,18 @@ img {
 	padding: 0 10px;
 }
 
+.col-100 {
+	width: 100%;
+}
+
+.col-33 {
+    width: calc(100% / 3);
+}
+
+.col-66 {
+    width: calc((100% / 3) * 2);
+}
+
 /* Components */
 
 .btn {
@@ -75,6 +87,17 @@ img {
     gap: 40px;
     padding: 0 20px;
     font-size: 16px;
+}
+
+/* Hero */
+
+.hero {
+    background-color: #B4D0E7;
+}
+
+
+.hero h1 {
+    font-size: 80px;
 }
 
 /* Debug */
