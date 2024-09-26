@@ -404,6 +404,24 @@ img {
     padding-bottom: 50px;
 }
 
+/* Free Trial */
+
+.free-trial h2 {
+    color: #61082B;
+    font-size: 40px;
+}
+
+.free-trial .btn {
+    color: black;
+    background-color: white;
+    padding: 0 50px;
+}
+
+.free-trial .display-flex {
+    align-items: center;
+    justify-content: space-between;
+    padding: 130px 0;
+}
 /* Debug */
 .debug .container,
 .debug .row,
@@ -462,4 +480,7 @@ img {
 }
 .bg-designit-big {
     background-color: #F5F5F5;
+}
+.bg-trial {
+    background-color: #B4D0E7;
 }
