@@ -79,6 +79,14 @@ img {
     width: 70%;
 }
 
+.col-40 {
+    width: 40%;
+}
+
+.col-60 {
+    width: 60%;
+}
+
 /* Components */
 
 .btn {
@@ -87,11 +95,21 @@ img {
     background-color: var(--btn-bg);
     padding: 0px calc(var(--btn-size) / 2);
     text-align: center;
+    display: inline-block;
 }
 
 .btn.btn-sm {
     line-height: 36px;
     padding: 0px calc(var(--btn-size) / 2);
+}
+
+.btn.btn-partner {
+    background-color: white;
+    color: black;
+    border-top: 1px solid gray;
+    border-right: 1px solid gray;
+    border-bottom: 2px solid black;
+    border-left: 2px solid black;
 }
 
 .fa-arrow-down {
@@ -141,6 +159,10 @@ img {
     font-size: 80px;
 }
 
+.hero p {
+    padding-right: 10px;
+}
+
 .row.main-title {
     padding-bottom: 45px;
 }
@@ -153,6 +175,11 @@ img {
 }
 
 /* Main */
+
+.plans {
+    margin-bottom: 150px;
+}
+
 .plans h2 {
     font-size: 40px;
     margin-bottom: 50px;
@@ -276,6 +303,23 @@ img {
     padding-top: 35px;
 }
 
+/* Partner */
+
+.partner h3 {
+    font-size: 24px;
+    margin-bottom: 15px;
+    padding-top: 50px;
+}
+
+.partner p {
+    margin-bottom: 30px;
+}
+
+.partner .btn.btn-partner {
+    line-height: 40px;
+}
+
+
 /* Debug */
 .debug .container,
 .debug .row,
@@ -290,6 +334,8 @@ img {
 .debug .row > * {
 	border-color: cornflowerblue;
 }
+
+
 
 /* Utilities */
 
