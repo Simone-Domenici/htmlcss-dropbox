@@ -319,6 +319,23 @@ img {
     line-height: 40px;
 }
 
+/* Business */
+
+.business h2 {
+    margin-top: 150px;
+    margin-bottom: 60px;
+    font-size: 40px;
+}
+
+.business h4 {
+    font-size: 24px;
+    margin-bottom: 30px;
+}
+
+.business {
+    margin-bottom: 200px;
+}
+
 
 /* Debug */
 .debug .container,
