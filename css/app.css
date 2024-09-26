@@ -1,7 +1,7 @@
 :root {
     --container-width: 1200px;
     --btn-bg: #0061ff;
-    --btn-size: 44px;
+    --btn-size: 40px;
 }
 
 * {
@@ -91,6 +91,10 @@ img {
     margin-top: auto;
 }
 
+.fa-check {
+    color: #0E63FF;
+}
+
 /* Header */
 
 .navbar {
@@ -125,7 +129,6 @@ img {
     padding-top: 60px;
 }
 
-
 .hero h1 {
     font-size: 80px;
 }
@@ -144,6 +147,11 @@ img {
 /* Main */
 .plans h2 {
     font-size: 40px;
+    margin-bottom: 50px;
+}
+
+.radio-btn {
+    margin-bottom: 45px;
 }
 
 .h-card {
@@ -151,8 +159,92 @@ img {
     justify-content: space-between;
 }
 
+.purchase-now::after {
+    display: table;
+    content: '';
+    border-bottom: 2px solid #e3e3e5;
+    width: 50px;
+    padding-top: 35px;
+}
+
+.card > * {
+    padding: 0 25px;
+}
+
+.card {
+    border: 2px solid #e3e3e5;
+}
+
+.card > .plan-icon {
+    border-bottom: 2px solid #e3e3e5;
+    padding: 0;
+}
+
+.plan-icon {
+    text-align: center;
+    font-size: 14px;
+    line-height: 35px;
+}
+
+.purchase-option {
+    font-size: 14px;
+    margin-top: 50px;
+}
+
+.plan-type {
+    padding: 35px 25px;
+}
+
+.plan-price {
+    font-size: 14px;
+    font-weight: 700;
+    padding-top: 10px;
+}
+
+.plan-period {
+    color: rgba(000,000,000,0.5);
+    padding-top: 10px;
+    font-size: 14px;
+}
+
+.card ul li {
+    font-size: 14px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: baseline;
+    gap: 5px;
+}
+
+.purchase-button {
+    padding-bottom: 30px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.btn-plans {
+    flex-grow: 1;
+}
+
+.purchase-now {
+    padding-left: 10px;
+}
+
+.purchase-now a {
+    text-decoration: underline;
+    color: #0356f2;
+}
+
+.plan-keypoints {
+    font-size: 14px;
+    margin-top: 50px;
+}
+
+.plan-keypoints h4 {
+    margin-bottom: 25px;
+}
+
 /* Debug */
-.card,
 .debug .container,
 .debug .row,
 .debug .row > * {
@@ -167,3 +259,8 @@ img {
 	border-color: cornflowerblue;
 }
 
+/* Utilities */
+
+.display-flex {
+    display: flex;
+}
