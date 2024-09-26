@@ -116,6 +116,10 @@ img {
     border-left: 2px solid black;
 }
 
+.fa-angle-down {
+    display: inline-block;
+}
+
 .fa-arrow-down {
     font-size: 42px;
     margin-top: auto;
@@ -422,7 +426,29 @@ img {
     justify-content: space-between;
     padding: 130px 0;
 }
+
+/* FAQ */
+
+.faq .faq-q {
+    display: inline-block;
+    padding-right: 280px;
+    padding: 40px 280px 40px 0;
+    font-weight: 600;
+}
+
+.faq .questions{
+    border-bottom: 1px solid #9F9F9F; 
+}
+
+.faq-title {
+    font-size: 40px;
+    padding-bottom: 65px;
+    margin-top: 160px;
+    border-bottom: 1px solid #9F9F9F;
+}
+
 /* Debug */
+
 .debug .container,
 .debug .row,
 .debug .row > * {
