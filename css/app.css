@@ -71,6 +71,14 @@ img {
     width: calc((100% / 3) * 2);
 }
 
+.col-30 {
+   width: 30%; 
+}
+
+.col-70 {
+    width: 70%;
+}
+
 /* Components */
 
 .btn {
@@ -154,6 +162,10 @@ img {
     margin-bottom: 45px;
 }
 
+.radio-btn  span{
+    margin-right: 30px;
+}
+
 .h-card {
     display: flex;
     justify-content: space-between;
@@ -220,6 +232,7 @@ img {
     text-align: center;
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 
 .btn-plans {
@@ -242,6 +255,25 @@ img {
 
 .plan-keypoints h4 {
     margin-bottom: 25px;
+}
+
+.plan-keypoints ul :nth-child(5) {
+    margin-bottom: 50px;
+}
+
+.h-card p,
+.h-card h4 {
+    font-size: 14px;
+}
+
+.h-card h4 {
+    padding-bottom: 45px;
+    padding-top: 20px;
+}
+
+.col-30.purchase-button{
+    align-self: first baseline;
+    padding-top: 35px;
 }
 
 /* Debug */
