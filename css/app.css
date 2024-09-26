@@ -48,10 +48,15 @@ img {
 .row {
 	display: flex;
 	flex-wrap: wrap;
+    row-gap: 50px;
 }
 
 .row > * {
-	padding: 10px;
+	padding: 0 25px;
+}
+
+.row.no-gutter > * {
+    padding: 0px;
 }
 
 .col-100 {
@@ -72,13 +77,13 @@ img {
     color: white;
     line-height: var(--btn-size);
     background-color: var(--btn-bg);
-    padding: 10px calc(var(--btn-size) / 2);
+    padding: 0px calc(var(--btn-size) / 2);
     text-align: center;
 }
 
 .btn.btn-sm {
     line-height: 36px;
-    padding: 5px calc(var(--btn-size) / 2);
+    padding: 0px calc(var(--btn-size) / 2);
 }
 
 .fa-arrow-down {
@@ -110,10 +115,6 @@ img {
 
 .logo {
     display: block;
-}
-
-.navbar .menu .logo {
-    padding-left: 0;
 }
 
 /* Hero */
@@ -150,12 +151,8 @@ img {
     justify-content: space-between;
 }
 
-.plans .row {
-    row-gap: 40px;
-}
-
 /* Debug */
-
+.card,
 .debug .container,
 .debug .row,
 .debug .row > * {
