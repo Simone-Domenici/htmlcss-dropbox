@@ -163,7 +163,7 @@ img {
 
 .hero {
     background-color: #B4D0E7;
-    margin-bottom: 95px;
+    margin-bottom: 160px;
     padding-top: 60px;
 }
 
@@ -184,6 +184,10 @@ img {
     flex-direction: column;
     gap: 30px;
     align-items: flex-start;
+}
+
+.hero .col-66 {
+    margin-bottom: -100px;
 }
 
 /* Main */
