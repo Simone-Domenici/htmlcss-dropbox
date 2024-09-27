@@ -385,6 +385,7 @@ img {
     max-width: 50%;
     aspect-ratio: 1 / 1;
     align-items: center;
+    filter: invert(1);
 }
 
 .brands-img * {
