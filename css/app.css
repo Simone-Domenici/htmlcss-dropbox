@@ -388,10 +388,6 @@ img {
     filter: invert(1);
 }
 
-.brands-img * {
-    color: white;
-}
-
 .main-brand {
     padding: 45px;
 }
